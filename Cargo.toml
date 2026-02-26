@@ -1,16 +1,16 @@
 [package]
 name = "solana-tx-parser"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 author = "hodlwarden"
 description = "Solana DEX transaction parser - parse trades, liquidity, and meme events"
 license = "MIT"
-repository = "https://github.com/hodlwarden/solana-dex-parser"
+repository = "https://github.com/hodlwarden/solana-tx-parser"
 keywords = ["solana", "dex", "parser", "swap", "jupiter"]
 categories = ["cryptography", "encoding"]
 readme = "README.md"
-documentation = "https://docs.rs/solana-dex-parser"
-homepage = "https://github.com/hodlwarden/solana-dex-parser"
+documentation = "https://docs.rs/solana-tx-parser"
+homepage = "https://github.com/hodlwarden/solana-tx-parser"
 
 [dependencies]
 borsh = "1.5"
