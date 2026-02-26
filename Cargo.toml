@@ -1,0 +1,24 @@
+[package]
+name = "solana-tx-parser"
+version = "0.1.0"
+edition = "2021"
+author = "hodlwarden"
+description = "Solana DEX transaction parser - parse trades, liquidity, and meme events"
+license = "MIT"
+repository = "https://github.com/hodlwarden/solana-dex-parser"
+keywords = ["solana", "dex", "parser", "swap", "jupiter", "raydium", "meteora", "orca", "pumpfun"]
+categories = ["cryptography", "encoding"]
+readme = "README.md"
+documentation = "https://docs.rs/solana-dex-parser"
+homepage = "https://github.com/hodlwarden/solana-dex-parser"
+
+[dependencies]
+borsh = "1.5"
+bs58 = "0.5"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+solana-sdk = "2.3"
+thiserror = "2.0"
+
+[dev-dependencies]
+serde_json = "1.0"
